@@ -1,5 +1,5 @@
 {% set name = "django-slick-reporting" %}
-{% set version = "1.0.2" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-slick-reporting-{{ version }}.tar.gz
-  sha256: 4afff1355231ca648acf7fc6c1714e404289d4ee63a4cc8479c8372014fa9b75
+  sha256: 02f18c6a268f128d9e59f95be8b52078aea511d7bb7c3f51e357d257aa801903
 
 build:
   noarch: python
