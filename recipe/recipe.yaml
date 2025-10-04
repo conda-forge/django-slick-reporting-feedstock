@@ -38,6 +38,7 @@ tests:
         - slick_reporting
       pip_check: true
       python_version: ${{ python_min }}.*
+
 about:
   summary: A one-stop report and analytics generation and computation with batteries included
   license: BSD-3-Clause
