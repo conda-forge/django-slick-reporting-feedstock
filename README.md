@@ -11,6 +11,8 @@ Summary: A one-stop report and analytics generation and computation with batteri
 
 Development: https://github.com/ra-systems/django-slick-reporting
 
+Documentation: https://django-slick-reporting.readthedocs.io/en/latest/
+
 Current build status
 ====================
 
