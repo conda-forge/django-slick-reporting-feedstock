@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: django-slick-reporting
-  version: 1.4.0
+  version: "1.5.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 6a930f7c911200bca80cf768f84765824198f45c4cae44486b388998b943d27a
+  sha256: 0f091439a42ad74a3c23bc277f73a86f17301a27b4d41451a1fae08459dd7181
 
 build:
   number: 0
@@ -36,8 +36,8 @@ tests:
         - slick_reporting
       pip_check: true
       python_version:
-      - ${{ python_min }}.*
-      - "*"
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: A one-stop report and analytics generation and computation with batteries included
