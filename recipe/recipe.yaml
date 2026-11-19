@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: django-slick-reporting
-  version: "1.5.0"
+  version: "1.5.1"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 0f091439a42ad74a3c23bc277f73a86f17301a27b4d41451a1fae08459dd7181
+  sha256: 819b32a0c17bff5652462e7d5dc2f8316d82db744bd777be9504646dcb8c2e51
 
 build:
   number: 0
